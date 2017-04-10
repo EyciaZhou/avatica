@@ -93,6 +93,7 @@ func (r *rows) Next(dest []driver.Value) error {
 			StatementId:  r.statementID,
 			Offset:       resultSet.offset,
 			FrameMaxSize: r.conn.config.frameMaxSize,
+			FetchMaxRowCount: 2000, //use python magic number here
 		})
 
 		if err != nil {
