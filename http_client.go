@@ -2,7 +2,7 @@ package avatica
 
 import (
 	"bytes"
-	avaticaMessage "github.com/Boostport/avatica/message"
+	avaticaMessage "github.com/EyciaZhou/avatica/message"
 	"github.com/golang/protobuf/proto"
 	"github.com/hashicorp/go-cleanhttp"
 	"golang.org/x/net/context"

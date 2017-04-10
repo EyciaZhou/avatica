@@ -3,7 +3,7 @@ package avatica
 import (
 	"database/sql/driver"
 
-	"github.com/Boostport/avatica/message"
+	"github.com/EyciaZhou/avatica/message"
 	"golang.org/x/net/context"
 )
 

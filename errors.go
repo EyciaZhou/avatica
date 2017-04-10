@@ -1,7 +1,7 @@
 package avatica
 
 import (
-	"github.com/Boostport/avatica/message"
+	"github.com/EyciaZhou/avatica/message"
 	"regexp"
 	"strconv"
 )

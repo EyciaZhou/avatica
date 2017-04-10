@@ -18,7 +18,7 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"fmt"
-	"github.com/Boostport/avatica/message"
+	"github.com/EyciaZhou/avatica/message"
 	"github.com/satori/go.uuid"
 	"golang.org/x/net/context"
 )

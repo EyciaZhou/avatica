@@ -2,7 +2,7 @@ package avatica
 
 import (
 	"fmt"
-	avaticaMessage "github.com/Boostport/avatica/message"
+	avaticaMessage "github.com/EyciaZhou/avatica/message"
 	"github.com/golang/protobuf/proto"
 	"strings"
 )
